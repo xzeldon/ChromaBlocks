@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "greenscreenmod",
+  "version": "${version}",
+
+  "name": "Green Screen Mod",
+  "description": "This mod add green screen block to Minecraft",
+  "authors": [
+    "xzeldon"
+  ],
+  "contact": {
+    "homepage": "https://zeldon.ru/",
+    "sources": "https://github.com/xzeldon/green-screen-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/greenscreenmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ru.xzeldon.greenscreenmod.GreenScreenMod"
+    ]
+  },
+  "mixins": [],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
