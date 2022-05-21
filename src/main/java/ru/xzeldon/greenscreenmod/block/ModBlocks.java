@@ -8,7 +8,6 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import ru.xzeldon.greenscreenmod.GreenScreenMod;
-import net.minecraft.block.AbstractGlassBlock;
 
 public class ModBlocks {
     public static final Block GREEN_SCREEN_BLOCK = registerBlock("green_screen_block", new GreenScreenBlock(), ItemGroup.MISC);
