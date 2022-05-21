@@ -10,7 +10,7 @@
   ],
   "contact": {
     "homepage": "https://zeldon.ru/",
-    "sources": "https://github.com/xzeldon/green-screen-mod"
+    "sources": "https://github.com/xzeldon/GreenScreenMod"
   },
 
   "license": "MIT",
@@ -20,6 +20,10 @@
   "entrypoints": {
     "main": [
       "ru.xzeldon.greenscreenmod.GreenScreenMod"
+    ],
+
+    "client": [
+      "ru.xzeldon.greenscreenmod.GreenScreenModClient"
     ]
   },
   "mixins": [],

@@ -3,7 +3,7 @@
 This mod just adds a green block to the miscellaneous tab.
 
 # Download 
-Download last version from [releases](https://github.com/xzeldon/green-screen-mod/releases).
+Download last version from [releases](https://github.com/xzeldon/GreenScreenMod/releases).
 
 # Install
-Place `.jar` file to the `mods` folder.
+Download and install [Fabric](https://fabricmc.net/use/installer/) then place `.jar` file to the `mods` folder.

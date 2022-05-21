@@ -1,17 +1,28 @@
 package ru.xzeldon.greenscreenmod.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
+import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import ru.xzeldon.greenscreenmod.GreenScreenMod;
-import net.minecraft.block.AbstractGlassBlock;
+import ru.xzeldon.greenscreenmod.block.custom.GreenScreenBlock;
 
-public class ModBlocks {
-    public static final Block GREEN_SCREEN_BLOCK = registerBlock("green_screen_block", new GreenScreenBlock(), ItemGroup.MISC);
+public class GreenScreenBlocks {
+    public static final Block GREEN_SCREEN_BLOCK = registerBlock("green_screen_block",
+            new Block(FabricBlockSettings.of(Material.METAL)
+                    .breakInstantly()
+            ), ItemGroup.MISC);
+
+    public static final Block GREEN_SCREEN_BLOCK_DIM = registerBlock("green_screen_block_dim",
+            new Block(FabricBlockSettings.of(Material.METAL)
+                    .breakInstantly()
+                    .luminance(15)
+            ), ItemGroup.MISC);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
@@ -23,7 +34,7 @@ public class ModBlocks {
                 new BlockItem(block, new FabricItemSettings().group(group)));
     }
 
-    public static void registerModBlocks() {
+    public static void registerBlocks() {
         GreenScreenMod.LOGGER.info("Registering ModBlocks for " + GreenScreenMod.MOD_ID);
     }
 }
