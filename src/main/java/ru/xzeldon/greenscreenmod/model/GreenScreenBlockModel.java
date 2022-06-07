@@ -22,6 +22,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.world.BlockRenderView;
 import org.jetbrains.annotations.Nullable;
 
@@ -91,9 +92,14 @@ public class GreenScreenBlockModel implements UnbakedModel, BakedModel, FabricBa
         return this;
     }
 
+//    @Override
+//    public List<BakedQuad> getQuads(@Nullable BlockState state, @Nullable Direction face, Random random) {
+//        return Collections.emptyList();
+//    }
+
     @Override
     public List<BakedQuad> getQuads(@Nullable BlockState state, @Nullable Direction face, Random random) {
-        return Collections.emptyList();
+        return null;
     }
 
     @Override
