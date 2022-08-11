@@ -1,0 +1,20 @@
+{
+  "block.chromablocks.chroma_green": "Green Chroma Block",
+  "block.chromablocks.chroma_green_dim": "Green Chroma Block Dim",
+  "block.chromablocks.chroma_black": "Black Chroma Block",
+  "block.chromablocks.chroma_black_dim": "Black Chroma Block Dim",
+  "block.chromablocks.chroma_blue": "Blue Chroma Block",
+  "block.chromablocks.chroma_blue_dim": "Blue Chroma Block Dim",
+  "block.chromablocks.chroma_cyan": "Cyan Chroma Block",
+  "block.chromablocks.chroma_cyan_dim": "Cyan Chroma Block Dim",
+  "block.chromablocks.chroma_purple": "Purple Chroma Block",
+  "block.chromablocks.chroma_purple_dim": "Purple Chroma Block Dim",
+  "block.chromablocks.chroma_red": "Red Chroma Block",
+  "block.chromablocks.chroma_red_dim": "Red Chroma Block Dim",
+  "block.chromablocks.chroma_white": "White Chroma Block",
+  "block.chromablocks.chroma_white_dim": "White Chroma Block Dim",
+  "block.chromablocks.chroma_yellow": "Yellow Chroma Block",
+  "block.chromablocks.chroma_yellow_dim": "Yellow Chroma Block Dim",
+  "itemGroup.chromablocks.chroma_blocks": "Chroma blocks"
+
+}

@@ -1,10 +1,11 @@
-# Green Screen Mod
+# ChromaBlocks
 
-This mod just adds a green block to the miscellaneous tab.
+![img](https://i.imgur.com/WmOq3tm.png)
+ChromaBlocks is a mod for Minecraft that adds a various chroma key blocks.
 
 # Download 
-Download last version from [releases](https://github.com/xzeldon/GreenScreenMod/releases).
+Download last version from [releases](https://github.com/xzeldon/chromablocks/releases).
 
 # Install
 Download and install [Fabric](https://fabricmc.net/use/installer/) then place `.jar` file to the `mods` folder.
-> For compability with [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) install [Indium](https://www.curseforge.com/minecraft/mc-mods/indium) 
+> For compability with [Sodium](https://modrinth.com/mod/sodium) install [Indium](https://modrinth.com/mod/indium) 

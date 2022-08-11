@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "greenscreenmod",
+  "id": "chromablocks",
   "version": "${version}",
 
-  "name": "Green Screen Mod",
-  "description": "This mod add green screen block to Minecraft",
+  "name": "Chroma Blocks",
+  "description": "Chroma key in Minecraft!",
   "authors": [
     "xzeldon"
   ],
   "contact": {
     "homepage": "https://zeldon.ru/",
-    "sources": "https://github.com/xzeldon/GreenScreenMod"
+    "sources": "https://github.com/xzeldon/chromablocks"
   },
 
   "license": "MIT",
-  "icon": "assets/greenscreenmod/icon.png",
+  "icon": "assets/chromablocks/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "ru.xzeldon.greenscreenmod.GreenScreenMod"
+      "ru.xzeldon.chromablocks.ChromaBlocks"
     ],
 
     "client": [
-      "ru.xzeldon.greenscreenmod.GreenScreenModClient"
+      "ru.xzeldon.chromablocks.ChromaBlocksClient"
     ]
   },
   "mixins": [],
